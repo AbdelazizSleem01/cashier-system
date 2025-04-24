@@ -152,7 +152,6 @@ export default function Login() {
                         {isLoading ? 'Signing in...' : 'Sign In'}
                     </button>
                 </form>
-              
             </div>
         </div>
     );
