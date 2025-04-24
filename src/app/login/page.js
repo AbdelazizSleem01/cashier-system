@@ -152,15 +152,7 @@ export default function Login() {
                         {isLoading ? 'Signing in...' : 'Sign In'}
                     </button>
                 </form>
-
-                <div className="px-6 py-4 bg-gray-50 border-t border-gray-100 text-center">
-                    <p className="text-gray-600 text-sm">
-                        Don't have an account?{' '}
-                        <a href="/register" className="text-blue-600 hover:text-blue-800 font-medium">
-                            Register here
-                        </a>
-                    </p>
-                </div>
+              
             </div>
         </div>
     );
